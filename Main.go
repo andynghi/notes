@@ -27,7 +27,7 @@ func env(key, defaultValue string) string {
 
 func main() {
 	server := App{
-		Port: env("PORT", "45000"),
+		Port: env("PORT", "49000"),
 	}
 	server.Start()
 }
